@@ -1,0 +1,746 @@
+extends layout
+
+block content
+  main
+    // Trending Area Start
+    .trending-area.fix.pt-25.gray-bg
+      .container
+        .trending-main
+          .row
+            .col-lg-8
+              // Trending Top
+              .slider-active
+                // Single
+                .single-slider
+                  .trending-top.mb-30
+                    .trend-top-img
+                      img(src='/img/trending/trending_top2.jpg', alt='')
+                      .trend-top-cap
+                        span.bgr(data-animation='fadeInUp', data-delay='.2s', data-duration='1000ms') Business
+                        h2
+                          a(href='latest_news.html', data-animation='fadeInUp', data-delay='.4s', data-duration='1000ms')
+                            | Anna Lora Stuns In White At Her Australian
+                            | Premiere
+                        p(data-animation='fadeInUp', data-delay='.6s', data-duration='1000ms')
+                          | by
+                          | Alice cloe - Jun 19, 2020
+                // Single
+                .single-slider
+                  .trending-top.mb-30
+                    .trend-top-img
+                      img(src='/img/trending/trending_top02.jpg', alt='')
+                      .trend-top-cap
+                        span.bgr(data-animation='fadeInUp', data-delay='.2s', data-duration='1000ms') Business
+                        h2
+                          a(href='latest_news.html', data-animation='fadeInUp', data-delay='.4s', data-duration='1000ms')
+                            | Anna Lora Stuns In White At Her Australian
+                            | Premiere
+                        p(data-animation='fadeInUp', data-delay='.6s', data-duration='1000ms')
+                          | by
+                          | Alice cloe - Jun 19, 2020
+                // Single
+                .single-slider
+                  .trending-top.mb-30
+                    .trend-top-img
+                      img(src='/img/trending/trending_top03.jpg', alt='')
+                      .trend-top-cap
+                        span.bgr(data-animation='fadeInUp', data-delay='.2s', data-duration='1000ms') Business
+                        h2
+                          a(href='latest_news.html', data-animation='fadeInUp', data-delay='.4s', data-duration='1000ms')
+                            | Anna Lora Stuns In White At Her Australian
+                            | Premiere
+                        p(data-animation='fadeInUp', data-delay='.6s', data-duration='1000ms')
+                          | by
+                          | Alice cloe - Jun 19, 2020
+            // Right content
+            .col-lg-4
+              // Trending Top
+              .row
+                .col-lg-12.col-md-6.col-sm-6
+                  .trending-top.mb-30
+                    .trend-top-img
+                      img(src='/img/trending/trending_top3.jpg', alt='')
+                      .trend-top-cap.trend-top-cap2
+                        span.bgb FASHION
+                        h2
+                          a(href='latest_news.html')
+                            | Secretart for Economic Air
+                            | plane that looks like
+                        p by Alice cloe - Jun 19, 2020
+                .col-lg-12.col-md-6.col-sm-6
+                  .trending-top.mb-30
+                    .trend-top-img
+                      img(src='/img/trending/trending_top4.jpg', alt='')
+                      .trend-top-cap.trend-top-cap2
+                        span.bgg TECH
+                        h2
+                          a(href='latest_news.html')
+                            | Secretart for Economic Air plane that looks
+                            | like
+                        p by Alice cloe - Jun 19, 2020
+    // Trending Area End
+    // Whats New Start
+    section.whats-news-area.pt-50.pb-20.gray-bg
+      .container
+        .row
+          .col-lg-8
+            .whats-news-wrapper
+              // Heading & Nav Button
+              .row.justify-content-between.align-items-end.mb-15
+                .col-xl-4
+                  .section-tittle.mb-30
+                    h3 Whats New
+                .col-xl-8.col-md-9
+                  .properties__button
+                    // Nav Button
+                    nav
+                      #nav-tab.nav.nav-tabs(role='tablist')
+                        a#nav-home-tab.nav-item.nav-link.active(data-toggle='tab', href='#nav-home', role='tab', aria-controls='nav-home', aria-selected='true') Lifestyle
+                        a#nav-profile-tab.nav-item.nav-link(data-toggle='tab', href='#nav-profile', role='tab', aria-controls='nav-profile', aria-selected='false') Travel
+                        a#nav-contact-tab.nav-item.nav-link(data-toggle='tab', href='#nav-contact', role='tab', aria-controls='nav-contact', aria-selected='false') Fashion
+                        a#nav-last-tab.nav-item.nav-link(data-toggle='tab', href='#nav-last', role='tab', aria-controls='nav-contact', aria-selected='false') Sports
+                        a#nav-Sports.nav-item.nav-link(data-toggle='tab', href='#nav-nav-Sport', role='tab', aria-controls='nav-contact', aria-selected='false') Technology
+                    // End Nav Button
+                    // Tab content
+                    .row
+                      .col-12
+                        // Nav Card
+                        #nav-tabContent.tab-content
+                          // card one
+                          #nav-home.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='nav-home-tab')
+                            .row
+                              // Left Details Caption
+                              .col-xl-6.col-lg-12
+                                .whats-news-single.mb-40.mb-40
+                                  .whates-img
+                                    img(src='/img/gallery/whats_news_details1.png', alt='')
+                                  .whates-caption
+                                    h4
+                                      a(href='latest_news.html')
+                                        | Secretart for Economic Air plane
+                                        | that looks like
+                                    span by Alice cloe   -   Jun 19, 2020
+                                    p
+                                      | Struggling to sell one multi-million dollar home currently on
+                                      | the market won’t stop actress and singer Jennifer Lopez.
+                              // Right single caption
+                              .col-xl-6.col-lg-12
+                                .row
+                                  // single
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img1.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img2.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img3.png', alt='')
+                                      .whats-right-cap
+                                        span.colorg FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img4.png', alt='')
+                                      .whats-right-cap
+                                        span.colorr FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                          // Card two
+                          #nav-profile.tab-pane.fade(role='tabpanel', aria-labelledby='nav-profile-tab')
+                            .row
+                              // Left Details Caption
+                              .col-xl-6
+                                .whats-news-single.mb-40
+                                  .whates-img
+                                    img(src='/img/gallery/whats_right_img2.png', alt='')
+                                  .whates-caption
+                                    h4
+                                      a(href='#')
+                                        | Secretart for Economic Air
+                                        | plane that looks like
+                                    span by Alice cloe   -   Jun 19, 2020
+                                    p
+                                      | Struggling to sell one multi-million dollar home currently on
+                                      | the market won’t stop actress and singer Jennifer Lopez.
+                              // Right single caption
+                              .col-xl-6.col-lg-12
+                                .row
+                                  // single
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img1.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img2.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img3.png', alt='')
+                                      .whats-right-cap
+                                        span.colorg FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img4.png', alt='')
+                                      .whats-right-cap
+                                        span.colorr FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                          // Card three
+                          #nav-contact.tab-pane.fade(role='tabpanel', aria-labelledby='nav-contact-tab')
+                            .row
+                              // Left Details Caption
+                              .col-xl-6
+                                .whats-news-single.mb-40
+                                  .whates-img
+                                    img(src='/img/gallery/whats_right_img4.png', alt='')
+                                  .whates-caption
+                                    h4
+                                      a(href='#')
+                                        | Secretart for Economic Air
+                                        | plane that looks like
+                                    span by Alice cloe   -   Jun 19, 2020
+                                    p
+                                      | Struggling to sell one multi-million dollar home currently on
+                                      | the market won’t stop actress and singer Jennifer Lopez.
+                              // Right single caption
+                              .col-xl-6.col-lg-12
+                                .row
+                                  // single
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img1.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img2.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img3.png', alt='')
+                                      .whats-right-cap
+                                        span.colorg FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img4.png', alt='')
+                                      .whats-right-cap
+                                        span.colorr FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                          // card fure
+                          #nav-last.tab-pane.fade(role='tabpanel', aria-labelledby='nav-last-tab')
+                            .row
+                              // Left Details Caption
+                              .col-xl-6
+                                .whats-news-single.mb-40
+                                  .whates-img
+                                    img(src='/img/gallery/whats_right_img2.png', alt='')
+                                  .whates-caption
+                                    h4
+                                      a(href='#')
+                                        | Secretart for Economic Air
+                                        | plane that looks like
+                                    span by Alice cloe   -   Jun 19, 2020
+                                    p
+                                      | Struggling to sell one multi-million dollar home currently on
+                                      | the market won’t stop actress and singer Jennifer Lopez.
+                              // Right single caption
+                              .col-xl-6.col-lg-12
+                                .row
+                                  // single
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img1.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img2.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img3.png', alt='')
+                                      .whats-right-cap
+                                        span.colorg FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img4.png', alt='')
+                                      .whats-right-cap
+                                        span.colorr FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                          // card Five
+                          #nav-nav-Sport.tab-pane.fade(role='tabpanel', aria-labelledby='nav-Sports')
+                            .row
+                              // Left Details Caption
+                              .col-xl-6
+                                .whats-news-single.mb-40
+                                  .whates-img
+                                    img(src='/img/gallery/whats_news_details1.png', alt='')
+                                  .whates-caption
+                                    h4
+                                      a(href='#')
+                                        | Secretart for Economic Air
+                                        | plane that looks like
+                                    span by Alice cloe   -   Jun 19, 2020
+                                    p
+                                      | Struggling to sell one multi-million dollar home currently on
+                                      | the market won’t stop actress and singer Jennifer Lopez.
+                              // Right single caption
+                              .col-xl-6.col-lg-12
+                                .row
+                                  // single
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img1.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img2.png', alt='')
+                                      .whats-right-cap
+                                        span.colorb FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img3.png', alt='')
+                                      .whats-right-cap
+                                        span.colorg FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                                  .col-xl-12.col-lg-6.col-md-6.col-sm-10
+                                    .whats-right-single.mb-20
+                                      .whats-right-img
+                                        img(src='/img/gallery/whats_right_img4.png', alt='')
+                                      .whats-right-cap
+                                        span.colorr FASHION
+                                        h4
+                                          a(href='latest_news.html')
+                                            | Portrait of group of
+                                            | friends ting eat. market in.
+                                        p Jun 19, 2020
+                        // End Nav Card
+                        // Banner
+                        .banner-one.mt-20.mb-30
+                          img(src='/img/gallery/body_card1.png', alt='')
+          .col-lg-4
+            // Flow Socail
+            .single-follow.mb-45
+              .single-box
+                .follow-us.d-flex.align-items-center
+                  .follow-social
+                    a(href='#')
+                      img(src='/img/news/icon-fb.png', alt='')
+                  .follow-count
+                    span 8,045
+                    p Fans
+                .follow-us.d-flex.align-items-center
+                  .follow-social
+                    a(href='#')
+                      img(src='/img/news/icon-tw.png', alt='')
+                  .follow-count
+                    span 8,045
+                    p Fans
+                .follow-us.d-flex.align-items-center
+                  .follow-social
+                    a(href='#')
+                      img(src='/img/news/icon-ins.png', alt='')
+                  .follow-count
+                    span 8,045
+                    p Fans
+                .follow-us.d-flex.align-items-center
+                  .follow-social
+                    a(href='#')
+                      img(src='/img/news/icon-yo.png', alt='')
+                  .follow-count
+                    span 8,045
+                    p Fans
+            // Most Recent Area
+            .most-recent-area
+              // Section Tittle
+              .small-tittle.mb-20
+                h4 Most Recent
+              // Details
+              .most-recent.mb-40
+                .most-recent-img
+                  img(src='/img/gallery/most_recent.png', alt='')
+                  .most-recent-cap
+                    span.bgbeg Vogue
+                    h4
+                      a(href='latest_news.html')
+                        | What to Wear: 9+ Cute Work
+                        br
+                        |                                         Outfits to Wear This.
+                    p Jhon | 2 hours ago
+              // Single
+              .most-recent-single
+                .most-recent-images
+                  img(src='/img/gallery/most_recent1.png', alt='')
+                .most-recent-capt
+                  h4
+                    a(href='latest_news.html') Scarlett’s disappointment at latest accolade
+                  p Jhon | 2 hours ago
+              // Single
+              .most-recent-single
+                .most-recent-images
+                  img(src='/img/gallery/most_recent2.png', alt='')
+                .most-recent-capt
+                  h4
+                    a(href='latest_news.html') Most Beautiful Things to Do in Sidney with Your BF
+                  p Jhon | 3 hours ago
+    // Whats New End
+    // Weekly2-News start
+    .weekly2-news-area.pt-50.pb-30.gray-bg
+      .container
+        .weekly2-wrapper
+          .row
+            // Banner
+            .col-lg-3
+              .home-banner2.d-none.d-lg-block
+                img(src='/img/gallery/body_card2.png', alt='')
+            .col-lg-9
+              .slider-wrapper
+                // section Tittle
+                .row
+                  .col-lg-12
+                    .small-tittle.mb-30
+                      h4 Most Popular
+                // Slider
+                .row
+                  .col-lg-12
+                    .weekly2-news-active.d-flex
+                      // Single
+                      .weekly2-single
+                        .weekly2-img
+                          img(src='/img/gallery/weeklyNews1.png', alt='')
+                        .weekly2-caption
+                          h4
+                            a(href='#') Scarlett’s disappointment at latest accolade
+                          p Jhon | 2 hours ago
+                      // Single
+                      .weekly2-single
+                        .weekly2-img
+                          img(src='/img/gallery/weeklyNews2.png', alt='')
+                        .weekly2-caption
+                          h4
+                            a(href='#') Scarlett’s disappointment at latest accolade
+                          p Jhon | 2 hours ago
+                      // Single
+                      .weekly2-single
+                        .weekly2-img
+                          img(src='/img/gallery/weeklyNews3.png', alt='')
+                        .weekly2-caption
+                          h4
+                            a(href='#') Scarlett’s disappointment at latest accolade
+                          p Jhon | 2 hours ago
+                      // Single
+                      .weekly2-single
+                        .weekly2-img
+                          img(src='/img/gallery/weeklyNews2.png', alt='')
+                        .weekly2-caption
+                          h4
+                            a(href='#') Scarlett’s disappointment at latest accolade
+                          p Jhon | 2 hours ago
+    // End Weekly-News
+    // Recent Articles start
+    .recent-articles.pt-80.pb-80
+      .container
+        .recent-wrapper
+          // section Tittle
+          .row
+            .col-lg-12
+              .section-tittle.mb-30
+                h3 Trending News
+          .row
+            .col-12
+              .recent-active.dot-style.d-flex.dot-style
+                // Single
+                .single-recent
+                  .what-img
+                    img(src='/img/gallery/tranding1.png', alt='')
+                  .what-cap
+                    h4
+                      a(href='#')
+                      h4
+                        a(href='#')
+                        a(href='latest_news.html')
+                          | What to Expect From the 2020 Oscar
+                          | Nomin ations
+                    p Jun 19, 2020
+                    a.popup-video.btn-icon(href='https://www.youtube.com/watch?v=1aP-TXUpNoU')
+                      span.flaticon-play-button
+                // Single
+                .single-recent
+                  .what-img
+                    img(src='/img/gallery/tranding2.png', alt='')
+                  .what-cap
+                    h4
+                      a(href='latest_news.html') What to Expect From the 2020 Oscar Nomin ations
+                    p Jun 19, 2020
+                    a.popup-video(href='https://www.youtube.com/watch?v=1aP-TXUpNoU')
+                      span.flaticon-play-button
+                // Single
+                .single-recent
+                  .what-img
+                    img(src='/img/gallery/tranding1.png', alt='')
+                  .what-cap
+                    h4
+                      a(href='latest_news.html')
+                      h4
+                        a(href='latest_news.html')
+                        a(href='latest_news.html')
+                          | What to Expect From
+                          | the 2020 Oscar Nomin ations
+                    p Jun 19, 2020
+                    a.popup-video(href='https://www.youtube.com/watch?v=1aP-TXUpNoU')
+                      span.flaticon-play-button
+                // Single
+                .single-recent
+                  .what-img
+                    img(src='/img/gallery/tranding2.png', alt='')
+                  .what-cap
+                    h4
+                      a(href='latest_news.html') What to Expect From the 2020 Oscar Nomin ations
+                    p Jun 19, 2020
+                    a.popup-video(href='https://www.youtube.com/watch?v=1aP-TXUpNoU')
+                      span.flaticon-play-button
+    // Recent Articles End
+    // Start Video Area
+    .youtube-area.video-padding.d-none.d-sm-block
+      .container
+        .row
+          .col-12
+            .video-items-active
+              .video-items.text-center
+                video(controls='')
+                  source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                  |                                 Your browser does not support the video tag.
+              .video-items.text-center
+                video(controls='')
+                  source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                  |                                 Your browser does not support the video tag.
+              .video-items.text-center
+                video(controls='')
+                  source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                  |                                 Your browser does not support the video tag.
+              .video-items.text-center
+                video(controls='')
+                  source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                  |                                 Your browser does not support the video tag.
+              .video-items.text-center
+                video(controls='')
+                  source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                  |                                 Your browser does not support the video tag.
+        .video-info
+          .row
+            .col-12
+              .testmonial-nav.text-center
+                .single-video
+                  video(controls='')
+                    source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                    |                                     Your browser does not support the video tag.
+                  .video-intro
+                    h4 Old Spondon News - 2020
+                .single-video
+                  video(controls='')
+                    source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                    |                                     Your browser does not support the video tag.
+                  .video-intro
+                    h4 Banglades News Video
+                .single-video
+                  video(controls='')
+                    source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                    |                                     Your browser does not support the video tag.
+                  .video-intro
+                    h4 Latest Video - 2020
+                .single-video
+                  video(controls='')
+                    source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                    |                                     Your browser does not support the video tag.
+                  .video-intro
+                    h4 Spondon News -2019
+                .single-video
+                  video(controls='')
+                    source(src='https://www.youtube.com/watch?v=3wmOpA_O9i4', type='video/mp4')
+                    |                                     Your browser does not support the video tag.
+                  .video-intro
+                    h4 Latest Video - 2020
+    // End Start Video area
+    // Weekly3-News start
+    .weekly3-news-area.pt-80.pb-130
+      .container
+        .weekly3-wrapper
+          .row
+            .col-lg-12
+              .slider-wrapper
+                // Slider
+                .row
+                  .col-lg-12
+                    .weekly3-news-active.dot-style.d-flex
+                      .weekly3-single
+                        .weekly3-img
+                          img(src='/img/gallery/weekly2News1.png', alt='')
+                        .weekly3-caption
+                          h4
+                            a(href='latest_news.html')
+                              | What to Expect From the 2020 Oscar Nomin
+                              | ations
+                          p 19 Jan 2020
+                      .weekly3-single
+                        .weekly3-img
+                          img(src='/img/gallery/weekly2News2.png', alt='')
+                        .weekly3-caption
+                          h4
+                            a(href='latest_news.html')
+                              | What to Expect From the 2020 Oscar Nomin
+                              | ations
+                          p 19 Jan 2020
+                      .weekly3-single
+                        .weekly3-img
+                          img(src='/img/gallery/weekly2News3.png', alt='')
+                        .weekly3-caption
+                          h4
+                            a(href='latest_news.html')
+                              | What to Expect From the 2020 Oscar Nomin
+                              | ations
+                          p 19 Jan 2020
+                      .weekly3-single
+                        .weekly3-img
+                          img(src='/img/gallery/weekly2News4.png', alt='')
+                        .weekly3-caption
+                          h4
+                            a(href='latest_news.html')
+                              | What to Expect From the 2020 Oscar Nomin
+                              | ations
+                          p 19 Jan 2020
+                      .weekly3-single
+                        .weekly3-img
+                          img(src='/img/gallery/weekly2News2.png', alt='')
+                        .weekly3-caption
+                          h4
+                            a(href='latest_news.html')
+                              | What to Expect From the 2020 Oscar Nomin
+                              | ations
+                          p 19 Jan 2020
+    // End Weekly-News
+    // banner-last Start
+    .banner-area.gray-bg.pt-90.pb-90
+      .container
+        .row.justify-content-center
+          .col-lg-10.col-md-10
+            .banner-one
+              img(src='/img/gallery/body_card3.png', alt='')
+    // banner-last End
+  
