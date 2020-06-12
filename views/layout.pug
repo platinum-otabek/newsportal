@@ -58,42 +58,42 @@ html.no-js
                                 // Logo
                                 .col-xl-3.col-lg-3.col-md-3.d-none.d-md-block
                                     .logo
-                                        a(href='index.html')
-                                            img(src='assets/img/logo/logo.png', alt='')
+                                        a(href='/')
+                                            img(src='/img/logo/logo.png', alt='')
                                 .col-xl-9.col-lg-9.col-md-9
                                     .header-banner.f-right
-                                        img(src='assets/img/gallery/header_card.png', alt='')
+                                        img(src='/img/gallery/header_card.png', alt='')
                     .header-bottom.header-sticky
                         .container
                             .row.align-items-center
                                 .col-xl-8.col-lg-8.col-md-12.header-flex
                                     // sticky
                                     .sticky-logo
-                                        a(href='index.html')
-                                            img(src='assets/img/logo/logo.png', alt='')
+                                        a(href='/')
+                                            img(src='/img/logo/logo.png', alt='')
                                     // Main-menu
                                     .main-menu.d-none.d-md-block
                                         nav
                                             ul#navigation
                                                 li
-                                                    a(href='index.html') Home
+                                                    a(href='/') Home
                                                 li
-                                                    a(href='about.html') about
+                                                    a(href='/about') about
                                                 li
-                                                    a(href='categori.html') Category
+                                                    a(href='/categori') Category
                                                 li
-                                                    a(href='latest_news.html') Latest News
+                                                    a(href='/latest_news') Latest News
+                                                //li
+                                                //    a(href='#') Pages
+                                                //    ul.submenu
+                                                //        li
+                                                //            a(href='/blog') Blog
+                                                //        li
+                                                //            a(href='/blog_details') Blog Details
+                                                //        li
+                                                //            a(href='/elements') Element
                                                 li
-                                                    a(href='#') Pages
-                                                    ul.submenu
-                                                        li
-                                                            a(href='blog.html') Blog
-                                                        li
-                                                            a(href='blog_details.html') Blog Details
-                                                        li
-                                                            a(href='elements.html') Element
-                                                li
-                                                    a(href='contact.html') Contact
+                                                    a(href='/contact') Contact
                                 .col-xl-4.col-lg-4.col-md-4
                                     .header-right.f-right.d-none.d-lg-block
                                         // Heder social
@@ -119,6 +119,81 @@ html.no-js
             // Header End
 
         block content
+
+        footer
+            // Footer Start
+            .footer-main.footer-bg
+                .footer-area.footer-padding
+                    .container
+                        .row.d-flex.justify-content-between
+                            .col-xl-3.col-lg-3.col-md-5.col-sm-8
+                                .single-footer-caption.mb-50
+                                    .single-footer-caption.mb-30
+                                        // logo
+                                        .footer-logo
+                                            a(href='index.html')
+                                                img(src='/img/logo/logo2.png', alt='')
+                                        .footer-tittle
+                                            .footer-pera
+                                                p.info1
+                                                    | Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do
+                                                    | eiusmod tempor incididunt ut labore.
+                                                p.info2 198 West 21th Street, Suite 721 New York,NY 10010
+                                                p.info2 Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789
+                            .col-xl-4.col-lg-4.col-md-5.col-sm-7
+                                .single-footer-caption.mb-50
+                                    .footer-tittle
+                                        h4 Popular post
+                                    // Popular post
+                                    .whats-right-single.mb-20
+                                        .whats-right-img
+                                            img(src='/img/gallery/footer_post1.png', alt='')
+                                        .whats-right-cap
+                                            h4
+                                                a(href='latest_news.html') Scarlett’s disappointment at latest accolade
+                                            p Jhon | 2 hours ago
+                                    // Popular post
+                                    .whats-right-single.mb-20
+                                        .whats-right-img
+                                            img(src='/img/gallery/footer_post2.png', alt='')
+                                        .whats-right-cap
+                                            h4
+                                                a(href='latest_news.html') Scarlett’s disappointment at latest accolade
+                                            p Jhon | 2 hours ago
+                                    // Popular post
+                                    .whats-right-single.mb-20
+                                        .whats-right-img
+                                            img(src='/img/gallery/footer_post3.png', alt='')
+                                        .whats-right-cap
+                                            h4
+                                                a(href='latest_news.html') Scarlett’s disappointment at latest accolade
+                                            p Jhon | 2 hours ago
+                            .col-xl-3.col-lg-3.col-md-5.col-sm-7
+                                .single-footer-caption.mb-50
+                                    .banner
+                                        img(src='/img/gallery/body_card4.png', alt='')
+                // footer-bottom aera
+                .footer-bottom-area.footer-bg
+                    .container
+                        .footer-border
+                            .row.d-flex.align-items-center
+                                .col-xl-12
+                                    .footer-copy-right.text-center
+                                        p
+                                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                            | Copyright ©
+                                            script.
+                                                document.write(new Date().getFullYear());
+                                            |                                     All rights reserved
+                                            a(href='#', target='_blank')  Portal
+                                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                            // Footer End
+        // Search model Begin
+        .search-model-box
+            .d-flex.align-items-center.h-100.justify-content-center
+                .search-close-btn +
+                form.search-model-form
+                    input#search-input(type='text', placeholder='Searching key.....')
 
         script(src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js' )
         // Jquery, Popper, Bootstrap
